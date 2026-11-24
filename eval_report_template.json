@@ -1,0 +1,30 @@
+{
+  "report_version": "1.0",
+  "run_id": "eval-run-001",
+  "timestamp": "2025-01-15T10:00:00Z",
+  "eval_suite": "core-nlp-benchmark",
+  "eval_spec": {
+    "model_name": "base-llm-v1",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "max_tokens": 512
+  },
+  "metrics": {
+    "accuracy": 0.842,
+    "precision": 0.815,
+    "recall": 0.871,
+    "f1_score": 0.842,
+    "latency_p50_ms": 124,
+    "latency_p95_ms": 310
+  },
+  "tags": [
+    "baseline",
+    "regression-test",
+    "nlp"
+  ],
+  "system_info": {
+    "environment": "linux-x86_64",
+    "device": "cuda:0",
+    "driver_version": "535.129.03"
+  }
+}
